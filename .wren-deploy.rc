@@ -1,0 +1,6 @@
+export MAVEN_PACKAGE="wrenicf-connector-archetype"
+export BINTRAY_PACKAGE="openicf-connector-archetype"
+export JFROG_PACKAGE="org/forgerock/openicf/connector-archetype"
+
+# FIXME: Have to skip Invoker tests to avoid GPG prompts that fail the tests
+export MVN_COMPILE_ARGS="-Dinvoker.skip=true"
