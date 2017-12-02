@@ -34,7 +34,7 @@
         <requiredProperty key="connectorName">
         </requiredProperty>
         <requiredProperty key="compatibility_version">
-            <defaultValue>1.4</defaultValue>
+            <defaultValue>1.5</defaultValue>
         </requiredProperty>
         <requiredProperty key="framework_version">
             <defaultValue>1.0</defaultValue>
